@@ -8,7 +8,7 @@ const CharacterList = props => {
       {props.characters.map(character => {
         return <Character key={character.name} character={character} />;
       })}
-    </ul>
+    </ul> 
   );
 };
 
